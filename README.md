@@ -1,0 +1,1 @@
+The syntax error specified by the exercise tells us that we may need to replace a close parantheses with a curly bracket and that we should look at line 16 of our code.

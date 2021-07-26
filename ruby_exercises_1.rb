@@ -15,3 +15,4 @@ movies = [movie_1, movie_2, movie_3, movie_4, movie_5]
 movies.each do |movie|
     puts movie[:year]
 end
+
