@@ -13,3 +13,11 @@ puts "We'll get the same return with a .merge! as follows: h1.merge!(h2) results
 puts "But let's call h1 again: #{h1}"
 puts "We can note that the returned hash from h1.merge!(h2) has been stored in the h1 variable, replacing its original hash"
 
+# Writing a program that loops through a hash and prints all the keys
+# Let's reuse the family hash from above:
+
+family = { uncles: ["bob", "joe", "steve"], sisters: ["jane", "jill", "beth"], brothers: ["frank", "rob", "david"], aunts: ["mary", "sally", "susan"]}
+
+family.each { |k,v| puts k}
+# prints the values
+family.each { |k,v| puts v}
