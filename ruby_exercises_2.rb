@@ -21,3 +21,5 @@ family = { uncles: ["bob", "joe", "steve"], sisters: ["jane", "jill", "beth"], b
 family.each { |k,v| puts k}
 # prints the values
 family.each { |k,v| puts v}
+# prints both values and keys
+family.each { |k,v| puts "The key is #{k} and the value is #{v}"}
