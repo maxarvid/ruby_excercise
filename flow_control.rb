@@ -15,3 +15,18 @@ elsif num > 50 && num <= 100
 else 
     puts "Out of range"
 end
+
+# 3 My answers: 
+# 1.'4' == 4 ? puts("TRUE") : puts("FALSE") => prints FALSE to terminal
+# 2. "Did you get it right?"
+# 3 "Alright now!"
+
+def equal_to_four(x)
+    if x == 4
+        puts "yup"
+    else
+        puts "nope"
+    end
+end
+
+equal_to_four(5)
