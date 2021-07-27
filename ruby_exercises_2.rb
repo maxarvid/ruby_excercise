@@ -23,3 +23,7 @@ family.each { |k,v| puts k}
 family.each { |k,v| puts v}
 # prints both values and keys
 family.each { |k,v| puts "The key is #{k} and the value is #{v}"}
+
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+puts person[:name]
