@@ -31,3 +31,5 @@ def scream(words)
 end
 
 scream("Yippeee")
+
+# The error message tells us that the calculate_product function requires 2 arguments and only got 1.
